@@ -20,7 +20,7 @@ public class TraceReaderTest {
 	public void default_settings_conservative() throws Exception {
 		final Settings defaultSettings = TestDataUtils.getDefaultSettings();
 		final TraceReader reader = TraceReader.create(defaultSettings);
-		assertThat(reader).isNotNull().isInstanceOf(SimpleTraceReader.class);
+		assertThat(reader).isNotNull().isInstanceOf(BatchTraceReader.class);
 	}
 
 	@Test

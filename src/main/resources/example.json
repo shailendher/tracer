@@ -1,0 +1,46 @@
+{
+    "id": "7qtk4yu4",
+    "root": {
+        "start": "2013-10-23T10:12:38.838Z",
+        "end": "2013-10-23T10:12:38.984Z",
+        "service": "service5",
+        "span": "f6kwiaxi",
+        "calls": [{
+            "start": "2013-10-23T10:12:38.840Z",
+            "end": "2013-10-23T10:12:38.849Z",
+            "service": "service3",
+            "span": "nnud6uhk",
+            "calls": [{
+                "start": "2013-10-23T10:12:38.840Z",
+                "end": "2013-10-23T10:12:38.841Z",
+                "service": "service6",
+                "span": "rbg5jom6",
+                "calls": []
+            }, {
+                "start": "2013-10-23T10:12:38.847Z",
+                "end": "2013-10-23T10:12:38.849Z",
+                "service": "service8",
+                "span": "5giipuzf",
+                "calls": []
+            }]
+        }, {
+            "start": "2013-10-23T10:12:38.859Z",
+            "end": "2013-10-23T10:12:38.892Z",
+            "service": "service3",
+            "span": "mvsh35fb",
+            "calls": []
+        }, {
+            "start": "2013-10-23T10:12:38.922Z",
+            "end": "2013-10-23T10:12:38.931Z",
+            "service": "service3",
+            "span": "5wis6uxm",
+            "calls": []
+        }, {
+            "start": "2013-10-23T10:12:38.936Z",
+            "end": "2013-10-23T10:12:38.979Z",
+            "service": "service1",
+            "span": "b6qq5uou",
+            "calls": []
+        }]
+    }
+}

@@ -45,7 +45,30 @@ FifoBuffer ->
 * Parallel stream currently uses Common ForkPool. A custom pool finetuned based on performance testing would yield better results.
 * Async execution of listener events.
 
+# Sample output
 
+```
+tracer>java -jar target\tracer-0.0.1-SNAPSHOT-jar-with-dependencies.jar -i data\small-log.txt -o data\small-output.txt
+tracer 100% │████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████│ 71/71 (0:00:01 / 0:00:00)
+Total number of entries in input file  : 389
+Total Number of entries in output file : 71
+Invalid/Malformed/Orphan entries       : 0
+Total time taken to process (in ms)    : 1500
+
+tracer>java -jar target\tracer-0.0.1-SNAPSHOT-jar-with-dependencies.jar -i data\medium-log.txt -o data\medium-output.txt
+tracer 100% │██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████│ 39377/39377 (0:00:02 / 0:00:00)
+Total number of entries in input file  : 210547
+Total Number of entries in output file : 39377
+Invalid/Malformed/Orphan entries       : 0
+Total time taken to process (in ms)    : 2647
+
+tracer>java -jar target\tracer-0.0.1-SNAPSHOT-jar-with-dependencies.jar -i data\large-log.txt -o data\large-output.txt
+tracer 100% │████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████│ 884174/884174 (0:00:12 / 0:00:00)
+Total number of entries in input file  : 4748712
+Total Number of entries in output file : 884174
+Invalid/Malformed/Orphan entries       : 0
+Total time taken to process (in ms)    : 14726
+```
 
 
 
